@@ -1,0 +1,6 @@
+@EduWorkAF_HostAddress = http://localhost:5119
+
+GET {{EduWorkAF_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
