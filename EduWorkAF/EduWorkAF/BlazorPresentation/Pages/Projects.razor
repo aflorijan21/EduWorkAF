@@ -1,0 +1,28 @@
+﻿@page "/projects"
+@using BlazorPresentation.Services
+@using DataAccessLayer.Models
+@inject ProjectService ProjectService
+
+<h3>Projects</h3>
+
+@if (projects == null)
+{
+    <p><em>Loading...</em></p>
+} else
+{
+    <ul>
+        @foreach (var project in projects)
+        {
+            <li>@project.Name</li>
+        }
+    </ul>
+}
+
+@code {
+    private IEnumerable<Project> projects;
+
+    protected override async Task OnInitializedAsync()
+    {
+        projects = await ProjectService.GetProjectsAsync();
+    }
+}

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EduWorkAF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+834808ae5c76544f8e6f92c2e8d01f32d5e1a643")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b17c13065a1db47a26750d10973e38928bd17f39")]
 [assembly: System.Reflection.AssemblyProductAttribute("EduWorkAF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EduWorkAF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

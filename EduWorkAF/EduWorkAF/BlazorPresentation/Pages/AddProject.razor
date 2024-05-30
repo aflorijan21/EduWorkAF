@@ -1,0 +1,27 @@
+﻿@page "/add-project"
+@using BlazorPresentation.Services
+@using DataAccessLayer.Models
+@inject ProjectService ProjectService
+@inject NavigationManager NavigationManager
+
+<h3>Add Project</h3>
+
+<EditForm Model="project" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+    <div>
+        <label for="name">Name</label>
+        <InputText id="name" @bind-Value="project.Name" />
+    </div>
+    <button type="submit">Add</button>
+</EditForm>
+
+@code {
+    private Project project = new Project();
+
+    private async Task HandleValidSubmit()
+    {
+        await ProjectService.CreateProjectAsync(project);
+        NavigationManager.NavigateTo("/projects");
+    }
+}

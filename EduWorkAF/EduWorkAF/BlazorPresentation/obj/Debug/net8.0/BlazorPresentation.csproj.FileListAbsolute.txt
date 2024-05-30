@@ -1,0 +1,7 @@
+D:\aRandom\EduWorkAFRepo\EduWorkAF\EduWorkAF\EduWorkAF\BlazorPresentation\obj\Debug\net8.0\BlazorPresentation.csproj.AssemblyReference.cache
+D:\aRandom\EduWorkAFRepo\EduWorkAF\EduWorkAF\EduWorkAF\BlazorPresentation\obj\Debug\net8.0\BlazorPresentation.GeneratedMSBuildEditorConfig.editorconfig
+D:\aRandom\EduWorkAFRepo\EduWorkAF\EduWorkAF\EduWorkAF\BlazorPresentation\obj\Debug\net8.0\BlazorPresentation.AssemblyInfoInputs.cache
+D:\aRandom\EduWorkAFRepo\EduWorkAF\EduWorkAF\EduWorkAF\BlazorPresentation\obj\Debug\net8.0\BlazorPresentation.AssemblyInfo.cs
+D:\aRandom\EduWorkAFRepo\EduWorkAF\EduWorkAF\EduWorkAF\BlazorPresentation\obj\Debug\net8.0\BlazorPresentation.csproj.CoreCompileInputs.cache
+D:\aRandom\EduWorkAFRepo\EduWorkAF\EduWorkAF\EduWorkAF\BlazorPresentation\obj\Debug\net8.0\BlazorPresentation.MvcApplicationPartsAssemblyInfo.cache
+D:\aRandom\EduWorkAFRepo\EduWorkAF\EduWorkAF\EduWorkAF\BlazorPresentation\obj\Debug\net8.0\BlazorPresentation.sourcelink.json
